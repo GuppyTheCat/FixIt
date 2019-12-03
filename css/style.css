@@ -5,6 +5,7 @@
 
 html {
     --site-color: #bfb800;
+    --dark-color: #1e212e;
 
 }
 
@@ -14,24 +15,38 @@ body {
 
 }
 
+i{
+    color: var(--dark-color);
+    font-size: 9rem;
+}
+
 p {
     font-weight: 300;
 }
 
-h1 {
-    font-family: 'Core Sans', sans-serif;
-    font-weight: 800;
+span{
+    color: var(--gray);
 }
 
-@media (min-width: 992px) {
-    .container {
-        padding-left: 80px;
-        padding-right: 80px;
-    }
+table{
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--dark-color);
+    margin-bottom: 50px;
 }
 
 .btn-custom {
-    background-color: #bfb800;
+    background-color: var(--site-color);
     border-radius: 25px;
     padding: 12px 10px;
     color: var(--light);
@@ -41,7 +56,12 @@ h1 {
     color: var(--gray);
 }
 
-/* Main block start */
+/* Jivosite button fix */
+.button_10{
+    margin: 0;
+}
+
+/* Main section start */
 #main {
     background: url(../img/main.jpg);
     background-position: center;
@@ -59,13 +79,13 @@ h1 {
 
 @media (max-width: 767px) {
     .navbar {
-    background-color: #1e212e;
+    background-color: var(--dark-color);
     }
 }
 
 .navbar-phone>a {
     font-weight: 500;
-    color: #bfb800 !important;
+    color: var(--site-color) !important;
     padding: 8px;
 }
 
@@ -77,15 +97,28 @@ h1 {
 
 .main-description>.row>div>p {
     color: var(--gray);
+    font-size: 1.25rem;
 }
 
 .main-description>.row>div>button {
     margin-top: 8px;
 }
 
-/* Main block end */
+/* Main section end */
 
-/* Jivosite button fix */
-.button_10{
-    margin: 0;
+/* Pros section start */
+#pros{
+    height: 700px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--light);
 }
+
+.pros-card{
+    margin-bottom: 30px;
+}
+
+.pros-card i{
+    margin-bottom: 15px;
+}
+/* Pros section end */
