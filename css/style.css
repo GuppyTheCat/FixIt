@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Core Sans', sans-serif;
+    src: url('../fonts/Core_Sans_M_85_Heavy.ttf') format('truetype');
+}
+
+html {
+    --site-color: #bfb800;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--light);
+
+}
+
+p {
+    font-weight: 300;
+}
+
+h1 {
+    font-family: 'Core Sans', sans-serif;
+    font-weight: 800;
+}
+
+@media (min-width: 992px) {
+    .container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+.btn-custom {
+    background-color: #bfb800;
+    border-radius: 25px;
+    padding: 12px 10px;
+    color: var(--light);
+}
+
+.btn-custom:hover {
+    color: var(--gray);
+}
+
+/* Main block start */
+#main {
+    background: url(../img/main.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    width: 95%;
+    max-width: 100%;
+    position: absolute;
+    z-index: 9999;
+}
+
+@media (max-width: 767px) {
+    .navbar {
+    background-color: #1e212e;
+    }
+}
+
+.navbar-phone>a {
+    font-weight: 500;
+    color: #bfb800 !important;
+    padding: 8px;
+}
+
+@media (max-width: 575px) {
+    .main-description h1 {
+        font-size: 1.75rem;
+    }
+}
+
+.main-description>.row>div>p {
+    color: var(--gray);
+}
+
+.main-description>.row>div>button {
+    margin-top: 8px;
+}
+
+/* Main block end */
+
+/* Jivosite button fix */
+.button_10{
+    margin: 0;
+}
