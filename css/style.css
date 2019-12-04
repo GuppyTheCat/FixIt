@@ -4,7 +4,7 @@
 }
 
 html {
-    --site-color: #ffe146;
+    --site-color: #00aaaa;
     --dark-color: #1e212e;
 }
 
@@ -36,8 +36,8 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: var(--dark-color);
     margin-bottom: 50px;
 }
@@ -48,22 +48,25 @@ section {
 }
 
 .bg-light {
-    background-color: var(--light)!important;
+    background-color: var(--light) !important;
 }
 
 .bg-dark {
-    background-color: var(--dark);
+    background-color: var(--dark) !important;
 }
 
 .btn-custom {
     background-color: var(--site-color);
     border-radius: 30px;
     padding: 14px 12px;
-    color: #353f50;
+    color: var(--light);
+    box-shadow: 0 0 1.5rem var(--site-color);
 }
 
 .btn-custom:hover {
+    background-color: var(--light);
     color: var(--dark);
+    box-shadow: 0 0 1.5rem var(--light);
 }
 
 /* Jivosite button fix */
@@ -75,7 +78,7 @@ section {
 
 /* Main section start */
 #main {
-    background: url(../img/main.jpg);
+    background: url(../img/main2.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -91,7 +94,11 @@ section {
 
 @media (max-width: 767px) {
     .navbar {
-        background-color: var(--dark-color);
+        background-color: var(--site-color);
+    }
+
+    .navbar-toggler {
+        border: none;
     }
 }
 
@@ -101,6 +108,17 @@ section {
     padding: 8px;
 }
 
+@media (max-width: 767px) {
+    .navbar-phone>a {
+        color: var(--light)!important;
+        padding: 8px 0;
+    }
+}
+
+.navbar .nav-link {
+    color: var(--light) !important;
+}
+
 @media (max-width: 575px) {
     .main-description h1 {
         font-size: 1.75rem;
@@ -108,7 +126,7 @@ section {
 }
 
 .main-description>.row>div>p {
-    color: var(--gray);
+    color: var(--light);
     font-size: 1.35rem;
 }
 
@@ -142,7 +160,21 @@ section {
 
 .electronics-card i {
     margin-bottom: 15px;
-    font-size: 7rem;
+    font-size: 5rem;
+}
+
+.electronics-card span {
+    font-size: 1.1rem;
+    white-space: nowrap;
+}
+
+.electronics-card tr:nth-child(2n) td {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.electronics-card p {
+    color: var(--gray);
 }
 
 /* Electronics section end */
@@ -151,8 +183,9 @@ section {
 
 /* Gap section start */
 
-#gap {
-    height: 700px;
+#gap p{
+    font-size: 1.3rem;
+    text-align: left;
 }
 
 /* Gap section end */
