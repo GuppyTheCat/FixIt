@@ -4,31 +4,28 @@
 }
 
 html {
-    --site-color: #bfb800;
+    --site-color: #ffe146;
     --dark-color: #1e212e;
-
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--light);
-
 }
 
-i{
-    color: var(--dark-color);
-    font-size: 9rem;
+i {
+    color: var(--dark);
 }
 
 p {
     font-weight: 300;
 }
 
-span{
+span {
     color: var(--gray);
 }
 
-table{
+table {
     width: 100%;
 }
 
@@ -45,21 +42,36 @@ h2 {
     margin-bottom: 50px;
 }
 
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bg-light {
+    background-color: var(--light)!important;
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
 .btn-custom {
     background-color: var(--site-color);
-    border-radius: 25px;
-    padding: 12px 10px;
-    color: var(--light);
+    border-radius: 30px;
+    padding: 14px 12px;
+    color: #353f50;
 }
 
 .btn-custom:hover {
-    color: var(--gray);
+    color: var(--dark));
 }
 
 /* Jivosite button fix */
-.button_10{
+.button_10 {
     margin: 0;
 }
+
+
 
 /* Main section start */
 #main {
@@ -79,7 +91,7 @@ h2 {
 
 @media (max-width: 767px) {
     .navbar {
-    background-color: var(--dark-color);
+        background-color: var(--dark-color);
     }
 }
 
@@ -97,7 +109,7 @@ h2 {
 
 .main-description>.row>div>p {
     color: var(--gray);
-    font-size: 1.25rem;
+    font-size: 1.35rem;
 }
 
 .main-description>.row>div>button {
@@ -106,19 +118,41 @@ h2 {
 
 /* Main section end */
 
-/* Pros section start */
-#pros{
-    height: 700px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: var(--light);
-}
 
-.pros-card{
+
+/* Pros section start */
+.pros-card {
     margin-bottom: 30px;
 }
 
-.pros-card i{
+.pros-card i {
     margin-bottom: 15px;
+    font-size: 9rem;
 }
+
 /* Pros section end */
+
+
+
+/* Electronics section start */
+
+.electronics-card {
+    margin-bottom: 30px;
+}
+
+.electronics-card i {
+    margin-bottom: 15px;
+    font-size: 7rem;
+}
+
+/* Electronics section end */
+
+
+
+/* Gap section start */
+
+#gap {
+    height: 700px;
+}
+
+/* Gap section end */
