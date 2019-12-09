@@ -74,6 +74,40 @@ section {
     margin: 0;
 }
 
+.slick-prev,
+.slick-next {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: var(--dark-color);
+    font-size: 1.75rem;
+}
+
+@media (min-width: 992px) {
+
+    .slick-prev:before,
+    .slick-next:before {
+        font-size: 2.25rem;
+    }
+
+    .slick-prev,
+    .slick-next {
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+}
+
+.slick-dots li button:before{
+    font-size: .55rem;
+    color: var(--dark-color);
+}
+
+.slick-dots li.slick-active button:before {
+    color: var(--site-color);
+}
 
 
 /* Main section start */
@@ -110,7 +144,7 @@ section {
 
 @media (max-width: 767px) {
     .navbar-phone>a {
-        color: var(--light)!important;
+        color: var(--light) !important;
         padding: 8px 0;
     }
 }
@@ -145,7 +179,11 @@ section {
 
 .pros-card i {
     margin-bottom: 15px;
-    font-size: 9rem;
+    font-size: 7rem;
+}
+
+.pros-card i:hover{
+    color: var(--site-color);
 }
 
 /* Pros section end */
@@ -161,6 +199,10 @@ section {
 .electronics-card i {
     margin-bottom: 15px;
     font-size: 5rem;
+}
+
+.electronics-card i:hover{
+    color: var(--site-color);
 }
 
 .electronics-card span {
@@ -183,9 +225,13 @@ section {
 
 /* Gap section start */
 
-#gap p{
+#gap1 p {
     font-size: 1.3rem;
     text-align: left;
+}
+
+#gap1 img {
+    max-width: 100%;
 }
 
 /* Gap section end */
