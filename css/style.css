@@ -36,8 +36,9 @@ h1 {
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-weight: 600;
     color: var(--dark-color);
     margin-bottom: 50px;
 }
@@ -74,6 +75,10 @@ section {
     margin: 0;
 }
 
+
+
+/* Slider start*/
+
 .slick-prev,
 .slick-next {
     width: 1.75rem;
@@ -108,6 +113,9 @@ section {
 .slick-dots li.slick-active button:before {
     color: var(--site-color);
 }
+
+/* Slider end*/
+
 
 
 /* Main section start */
