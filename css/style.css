@@ -31,16 +31,20 @@ table {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
     font-size: 4rem;
+    font-weight: 700;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    /*font-family: 'Roboto', sans-serif;*/
+    font-size: 2.25rem;
     font-weight: 600;
     color: var(--dark-color);
     margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 section {
@@ -53,7 +57,7 @@ section {
 }
 
 .bg-dark {
-    background-color: var(--dark) !important;
+    background-color: var(--dark-color) !important;
 }
 
 .btn-custom {
@@ -192,6 +196,7 @@ section {
 
 .pros-card i:hover{
     color: var(--site-color);
+    cursor: pointer;
 }
 
 /* Pros section end */
@@ -211,6 +216,7 @@ section {
 
 .electronics-card i:hover{
     color: var(--site-color);
+    cursor: pointer;
 }
 
 .electronics-card span {
@@ -243,3 +249,45 @@ section {
 }
 
 /* Gap section end */
+
+
+
+/* Problems section start */
+
+#problems h2 {
+    color: var(--light);
+    margin-top: 25px;
+}
+
+#problems > .container > .row{
+    background-color: var(--light);
+    padding: 0;
+}
+
+.problems-card, .problems-card td{
+    padding: 0;
+}
+
+.problems-card img {
+    width: 100%;
+}
+
+.problems-card h4 {
+    color: var(--dark);
+    white-space: nowrap;
+    margin-top: 17px;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .problems-card h4 {
+        font-size: 1.25rem;
+    }
+}
+
+.problems-card h4:hover {
+    color: var(--site-color);
+    cursor: pointer;
+}
+
+/* Problems section end */
