@@ -5,6 +5,7 @@
 
 html {
     --site-color: #00aaaa;
+    /*--site-color: #ffe146;*/
     --dark-color: #1e212e;
 }
 
@@ -45,6 +46,8 @@ h2 {
 
 h3 {
     font-size: 2rem;
+    color: var(--dark);
+    margin-bottom: 50px;
 }
 
 section {
@@ -192,6 +195,7 @@ section {
 .pros-card i {
     margin-bottom: 15px;
     font-size: 7rem;
+    transition: color 0.5s ease;
 }
 
 .pros-card i:hover{
@@ -212,6 +216,7 @@ section {
 .electronics-card i {
     margin-bottom: 15px;
     font-size: 5rem;
+    transition: color 0.5s ease;
 }
 
 .electronics-card i:hover{
@@ -264,6 +269,12 @@ section {
     padding: 0;
 }
 
+#problems > p {
+    color: var(--gray);
+    font-size: 1.2rem;;
+    margin-bottom: 50px;
+}
+
 .problems-card, .problems-card td{
     padding: 0;
 }
@@ -277,6 +288,7 @@ section {
     white-space: nowrap;
     margin-top: 17px;
     margin-bottom: 40px;
+    transition: color 0.5s ease;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
