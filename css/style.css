@@ -12,6 +12,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--light);
+    background-color: var(--dark-color);
 }
 
 i {
@@ -81,6 +82,7 @@ section {
 .button_10 {
     margin: 0;
 }
+/* Jivosite button fix */
 
 
 
@@ -287,7 +289,7 @@ section {
     color: var(--dark);
     white-space: nowrap;
     margin-top: 17px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     transition: color 0.5s ease;
 }
 
@@ -303,3 +305,31 @@ section {
 }
 
 /* Problems section end */
+
+
+
+/* Help section start */
+
+#help {
+    background: url(../img/parallax-img-1.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    max-height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#help h2 {
+    margin-bottom: 0;
+}
+
+#help p {
+    color: var(--dark-color);
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Help section end */
