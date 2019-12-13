@@ -82,6 +82,7 @@ section {
 .button_10 {
     margin: 0;
 }
+
 /* Jivosite button fix */
 
 
@@ -114,7 +115,7 @@ section {
     }
 }
 
-.slick-dots li button:before{
+.slick-dots li button:before {
     font-size: .55rem;
     color: var(--dark-color);
 }
@@ -200,7 +201,7 @@ section {
     transition: color 0.5s ease;
 }
 
-.pros-card i:hover{
+.pros-card i:hover {
     color: var(--site-color);
     cursor: pointer;
 }
@@ -221,7 +222,7 @@ section {
     transition: color 0.5s ease;
 }
 
-.electronics-card i:hover{
+.electronics-card i:hover {
     color: var(--site-color);
     cursor: pointer;
 }
@@ -251,6 +252,12 @@ section {
     text-align: left;
 }
 
+@media screen and (max-width: 479px) {
+    #gap1 p {
+        font-size: 1.1rem;
+    }
+}
+
 #gap1 img {
     max-width: 100%;
 }
@@ -266,18 +273,20 @@ section {
     margin-top: 25px;
 }
 
-#problems > .container > .row{
+#problems>.container>.row {
     background-color: var(--light);
     padding: 0;
 }
 
-#problems > p {
+#problems>p {
     color: var(--gray);
-    font-size: 1.2rem;;
+    font-size: 1.2rem;
+    ;
     margin-bottom: 50px;
 }
 
-.problems-card, .problems-card td{
+.problems-card,
+.problems-card td {
     padding: 0;
 }
 
@@ -315,8 +324,7 @@ section {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
-    max-height: 400px;
+    height: 450px;
     margin-top: 100px;
     margin-bottom: 100px;
 }
