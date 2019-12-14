@@ -5,14 +5,14 @@
 
 html {
     --site-color: #00aaaa;
-    /*--site-color: #ffe146;*/
+    --yellow-color: #ffe146;
     --dark-color: #1e212e;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--light);
-    background-color: var(--dark-color);
+    background-color: var(--light);
 }
 
 i {
@@ -69,13 +69,13 @@ section {
     border-radius: 30px;
     padding: 14px 12px;
     color: var(--light);
-    box-shadow: 0 0 1.5rem var(--site-color);
+    box-shadow: 0 0 1rem var(--site-color);
 }
 
 .btn-custom:hover {
-    background-color: var(--light);
+    background-color: var(--yellow-color);
     color: var(--dark);
-    box-shadow: 0 0 1.5rem var(--light);
+    box-shadow: 0 0 1rem var(--yellow-color);
 }
 
 /* Jivosite button fix */
@@ -154,6 +154,16 @@ section {
     }
 }
 
+@media (max-width: 575px) {
+    .main-description h1 {
+        font-size: 2.25rem !important;
+    }
+
+    .main-description p {
+        font-size: 1.15rem !important;
+    }
+}
+
 .navbar-phone>a {
     font-weight: 500;
     color: var(--site-color) !important;
@@ -175,6 +185,17 @@ section {
     .main-description h1 {
         font-size: 1.75rem;
     }
+}
+
+.navbar-brand td {
+    padding: 5px;
+}
+
+.navbar-brand span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--light);
 }
 
 .main-description>.row>div>p {
@@ -252,7 +273,7 @@ section {
     text-align: left;
 }
 
-@media screen and (max-width: 479px) {
+@media (max-width: 479px) {
     #gap1 p {
         font-size: 1.1rem;
     }
@@ -325,8 +346,7 @@ section {
     background-size: cover;
     width: 100%;
     height: 450px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 0;
 }
 
 #help h2 {
@@ -341,3 +361,68 @@ section {
 }
 
 /* Help section end */
+
+
+
+/* Price section start */
+
+#price {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#price h2 {
+    margin-bottom: 0;
+}
+
+#price p{
+    color: var(--gray);
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.price-btn {
+    background-color: var(--gray);
+    width: 100%;
+    height: 4rem;
+    border-radius: 0;
+    color: var(--light);
+    font-size: 1.35rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.price-btn.focus,
+.price-btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.price-btn:hover {
+    color: var(--light);
+}
+
+.price-btn:hover::before {
+    color: var(--site-color);
+}
+
+.price-btn::before {
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .155em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    transition: color 0.25s ease;
+}
+
+.price-btn::after{
+    display: none;
+}
+
+/* Price section end */
