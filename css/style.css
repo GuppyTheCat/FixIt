@@ -191,6 +191,11 @@ section {
     padding: 5px;
 }
 
+.navbar-brand svg{
+    height: 40px;
+    fill: var(--light);
+}
+
 .navbar-brand span {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
@@ -214,6 +219,7 @@ section {
 /* Pros section start */
 .pros-card {
     margin-bottom: 30px;
+    opacity: 0;
 }
 
 .pros-card i {
