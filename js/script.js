@@ -48,4 +48,8 @@ $(document).ready(function () {
     os.on('enter', '.pros-card:nth-child(6)', (element, event) => {
         element.classList.add('fadeInUp');
     });
+
+    os.on('enter', '.electronics-slider', (element, event) => {
+        element.classList.add('fadeInRight');
+    });
 });
