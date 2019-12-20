@@ -191,7 +191,7 @@ section {
     padding: 5px;
 }
 
-.navbar-brand svg{
+.navbar-brand svg {
     height: 40px;
     fill: var(--light);
 }
@@ -386,27 +386,15 @@ section {
     margin-bottom: 0;
 }
 
-#price p{
+#price p {
     color: var(--gray);
     font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-#price .row{
-    justify-content: center;
-}
-
-.price-btnContainer {
-    padding: 7px;
-}
-
-.price-btn {
-    background-color: var(--gray);
-    color: var(--light);
-    border: none;
-    width: 100%;
-    border-radius: 0;
+.list-group {
+    max-height: 500px;
 }
 
 /* Price section end */
