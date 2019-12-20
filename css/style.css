@@ -393,6 +393,33 @@ section {
     margin-bottom: 30px;
 }
 
+@media (min-width: 400px) and (max-width: 575px) {
+    .list-group {
+        width: 80%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .list-group {
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .list-group {
+        max-height: 40vh;
+        margin-bottom: 40px;
+    }
+}
+
+.simplebar-content-wrapper {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
 .list-group-item.active {
     z-index: 2;
     color: var(--light);
