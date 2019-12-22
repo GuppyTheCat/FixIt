@@ -82,7 +82,6 @@ section {
 .button_10 {
     margin: 0;
 }
-
 /* Jivosite button fix */
 
 
@@ -145,6 +144,7 @@ section {
 }
 
 @media (max-width: 767px) {
+    
     .navbar {
         background-color: var(--site-color);
     }
@@ -153,6 +153,63 @@ section {
         border: none;
     }
 }
+
+@media (max-height: 756px) and (min-aspect-ratio: 1/1) {
+
+    .main-description{
+        padding-top: 65px;
+    }
+
+    #main h1{
+        font-size: 3.25rem;
+    }
+
+    #main p{
+        font-size: 1.25rem;
+        margin: .5rem 0;
+    }
+}
+
+@media (max-height: 512px) and (min-aspect-ratio: 1/1) {
+
+    #main h1{
+        font-size: 3rem;
+    }
+
+    #main p{
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-height: 448px) and (min-aspect-ratio: 1/1) {
+
+    .navbar{
+        padding: .25rem .75rem;
+    }
+    .navbar-brand{
+        padding: 0;
+    }
+
+    #main h1{
+        font-size: 2.5rem;
+    }
+
+    #main p{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-height: 384px) and (min-aspect-ratio: 1/1) {
+
+    #main h1{
+        font-size: 2rem;
+    }
+
+    #main p{
+        font-size: 1rem;
+    }
+}
+
 
 @media (max-width: 575px) {
     .main-description h1 {
@@ -203,9 +260,10 @@ section {
     color: var(--light);
 }
 
-.main-description>.row>div>p {
+.main-description p {
     color: var(--light);
     font-size: 1.35rem;
+    margin: 1.5rem 0;
 }
 
 .main-description>.row>div>button {
@@ -316,6 +374,11 @@ section {
     margin-bottom: 50px;
 }
 
+.problems-slider{
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .problems-card,
 .problems-card td {
     padding: 0;
@@ -327,16 +390,10 @@ section {
 
 .problems-card h4 {
     color: var(--dark);
+    font-size: 1.3rem;
     white-space: nowrap;
     margin-top: 17px;
-    margin-bottom: 30px;
     transition: color 0.5s ease;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .problems-card h4 {
-        font-size: 1.25rem;
-    }
 }
 
 .problems-card h4:hover {
@@ -346,7 +403,9 @@ section {
 
 /* Problems section end */
 
-
+#gap{
+    padding-bottom: 25px;
+}
 
 /* Help section start */
 
