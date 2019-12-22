@@ -96,4 +96,7 @@ $(document).ready(function () {
     os.on('enter', '.electronics-slider', (element, event) => {
         element.classList.add('fadeInRight');
     });
+
+    var scroll = new SmoothScroll('a[href*="#"]');
+
 });
