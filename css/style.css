@@ -143,6 +143,12 @@ section {
     z-index: 9999;
 }
 
+.main-description p {
+    color: var(--light);
+    font-size: 1.35rem;
+    margin: 1.5rem 0;
+}
+
 @media (max-width: 767px) {
     
     .navbar {
@@ -154,7 +160,47 @@ section {
     }
 }
 
-@media (max-height: 756px) and (min-aspect-ratio: 1/1) {
+@media (max-width: 575px) {
+    .main-description h1 {
+        font-size: 1.75rem;
+    }
+
+    .main-description p {
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-height: 991px){
+    .main-description h1 {
+        font-size: 2.75rem;
+    }
+
+    .main-description p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-height: 767px){
+    .main-description h1 {
+        font-size: 2.25rem;
+    }
+
+    .main-description p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-height: 575px){
+    .main-description h1 {
+        font-size: 1.65rem;
+    }
+
+    .main-description p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-height: 755px) and (min-aspect-ratio: 1/1) {
 
     .main-description{
         padding-top: 65px;
@@ -210,17 +256,6 @@ section {
     }
 }
 
-
-@media (max-width: 575px) {
-    .main-description h1 {
-        font-size: 2.25rem !important;
-    }
-
-    .main-description p {
-        font-size: 1.15rem !important;
-    }
-}
-
 .navbar-phone>a {
     font-weight: 500;
     color: var(--site-color) !important;
@@ -238,12 +273,6 @@ section {
     color: var(--light) !important;
 }
 
-@media (max-width: 575px) {
-    .main-description h1 {
-        font-size: 1.75rem;
-    }
-}
-
 .navbar-brand td {
     padding: 5px;
 }
@@ -258,12 +287,6 @@ section {
     font-size: 2rem;
     font-weight: 600;
     color: var(--light);
-}
-
-.main-description p {
-    color: var(--light);
-    font-size: 1.35rem;
-    margin: 1.5rem 0;
 }
 
 .main-description>.row>div>button {
