@@ -80,6 +80,9 @@ section {
 
 /* Jivosite button fix */
 
+
+/* Hover animation start */
+
 a.middleHover {
     position: relative;
 }
@@ -105,6 +108,10 @@ a.middleHover:hover:before {
     visibility: visible;
     transform: scaleX(1);
 }
+
+/* Hover animation end */
+
+
 
 /* Slider start*/
 
@@ -571,6 +578,7 @@ a.middleHover:hover:before {
 /* Price section end */
 
 #footer {
+    padding-top: 0;
     padding-bottom: 75px;
 }
 
