@@ -40,6 +40,12 @@ h2 {
     margin-bottom: 50px;
 }
 
+@media (max-width: 384px) {
+    h2 {
+        font-size: 1.75rem;
+    }
+}
+
 h3 {
     font-size: 2rem;
     color: var(--dark);
@@ -294,15 +300,15 @@ a.middleHover:hover:before {
     }
 }
 
-.navbar-phone>a {
+.navbar-phone-link {
     font-weight: 500;
     color: var(--site-color) !important;
     padding: 8px;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 @media (max-width: 767px) {
-    .navbar-phone>a {
+    .navbar-phone-link {
         color: var(--light) !important;
         padding: 8px 0;
     }
@@ -326,6 +332,17 @@ a.middleHover:hover:before {
     font-size: 2rem;
     font-weight: 600;
     color: var(--light);
+}
+
+@media (max-width: 384px) {
+    .navbar-brand span {
+        font-size: 1.5rem;
+    }
+
+    .navbar-toggler{
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
 }
 
 .main-description>.row>div>button {
@@ -358,6 +375,10 @@ a.middleHover:hover:before {
 
 
 /* Electronics section start */
+
+#electronics{
+    padding-bottom: 0;
+}
 
 .electronics-slider {
     opacity: 0;
