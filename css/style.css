@@ -376,10 +376,6 @@ a.middleHover:hover:before {
 
 /* Electronics section start */
 
-#electronics{
-    padding-bottom: 0;
-}
-
 .electronics-slider {
     opacity: 0;
 }
@@ -549,7 +545,7 @@ a.middleHover:hover:before {
 
 @media (max-width: 767px) {
     .simplebar-wrapper {
-        max-height: 30vh;
+        max-height: 40vh;
     }
 }
 
