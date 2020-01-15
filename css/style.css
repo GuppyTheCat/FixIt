@@ -125,7 +125,7 @@ a.middleHover:hover:before {
 .slick-next {
     width: 1.75rem;
     height: 1.75rem;
-    top: 122px;
+    top: 70px;
 }
 
 .slick-prev:before,
@@ -370,6 +370,10 @@ a.middleHover:hover:before {
     cursor: pointer;
 }
 
+.star-message{
+    font-size: .85rem;
+}
+
 /* Pros section end */
 
 
@@ -572,9 +576,8 @@ a.middleHover:hover:before {
     padding-left: 15px;
 }
 
-#price td:nth-child(2n),
-#price td:nth-child(3n) {
-    width: auto;
+#price td:nth-child(2n){
+    width: 100px;
     text-align: center;
 }
 
