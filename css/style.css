@@ -440,6 +440,10 @@ a.middleHover:hover:before {
 
 /* Problems section start */
 
+#problems{
+    padding-bottom: 75px;
+}
+
 #problems h2 {
     color: var(--light);
     margin-top: 25px;
