@@ -131,7 +131,7 @@
                         <div class="row h-100">
                             <div class="col-12 my-auto">
                                 <h1>
-                                    Ремонт gps навигаторов
+                                    Услуги
                                 </h1>
                             </div>
                         </div>
@@ -141,71 +141,160 @@
         </div>
     </div>
 
-        <section id="description" class="bg-dark container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-8 text-center">
-                    <img src="../img/devices/navigators/TN-522HDDVR_.png" class="description-image" />
-                    <h3>Ремонт GPS навигаторов в Нижнем Новгороде</h3>
 
-                    <p class="description-text">
-                        Если в дороге неожиданно сломался ваш верный друг и помощник - не стоит переживать!<br>
-                        Сервисный центр iМастер произведет ремонт в минимальные сроки за стоимость значительно дешевле
-                        рыночной.<br>
-                        Засчёт сниженных расходов на рекламу, аренду и оплату текущих расходов, мы прилично сэкономим
-                        ваш
-                        бюджет.<br>
-                        Часто в дороге у GPS навигаторов, радар-детекторов, зарядных устройств и прочей автомобильной
-                        техники случаются типовые неисправности.<br>
-                        Я как частный мастер гарантирую вам скорейшее восстановление вашего девайса.<br>
-                        Вы можете обратиться ко мне <strong>круглосуточно</strong> в абсолютно любой день.<br>
-                        Цены вас приятно удивят, а качественный ремонт продлит жизнь вашему автомобильному помощнику на
-                        ближайшие годы.
-                    </p>
-                    <button type="button" class="btn btn-custom my-3" onclick="jivo_api.open();">
-                        Написать мастеру
-                    </button>
+
+
+    <section class="devices-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-lg-3 text-center">
+                    <div data-simplebar>
+                        <div class="list-group mx-auto" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="list-phone-list"
+                                data-toggle="list" href="#list-phone" role="tab"
+                                aria-controls="list-phone-list">Телефоны</a>
+                            <a class="list-group-item list-group-item-action" id="list-tablet-list" data-toggle="list"
+                                href="#list-tablet" role="tab" aria-controls="list-tablet-list">Планшеты</a>
+                            <a class="list-group-item list-group-item-action" id="list-pc-list" data-toggle="list"
+                                href="#list-pc" role="tab" aria-controls="list-pc-list">Компьютеры</a>
+                            <a class="list-group-item list-group-item-action" id="list-notebook-list" data-toggle="list"
+                                href="#list-notebook" role="tab" aria-controls="list-notebook-list">Ноутбуки</a>
+                            <a class="list-group-item list-group-item-action" id="list-tv-list" data-toggle="list"
+                                href="#list-tv" role="tab" aria-controls="list-tv-list">
+                                Телевизоры</a>
+                            <a class="list-group-item list-group-item-action" id="list-console-list" data-toggle="list"
+                                href="#list-console" role="tab" aria-controls="list-console-list">
+                                Игровые консоли</a>
+                            <a class="list-group-item list-group-item-action" id="list-photo-list" data-toggle="list"
+                                href="#list-photo" role="tab" aria-controls="list-photo-list">
+                                Фото/видеотехника</a>
+                            <!--
+                        <a class="list-group-item list-group-item-action" id="list-video-list" data-toggle="list"
+                            href="#list-video" role="tab" aria-controls="list-video-list">
+                            Видеотехника</a>
+                            -->
+                            <a class="list-group-item list-group-item-action" id="list-player-list" data-toggle="list"
+                                href="#list-player" role="tab" aria-controls="list-player-list">
+                                Плееры</a>
+
+                            <a class="list-group-item list-group-item-action" id="list-navigator-list"
+                                data-toggle="list" href="#list-navigator" role="tab"
+                                aria-controls="list-navigator-list">
+                                Навигаторы</a>
+                            <!--
+                        <a class="list-group-item list-group-item-action" id="list-powerbank-list"
+                            data-toggle="list" href="#list-powerbank" role="tab" aria-controls="list-powerbank-list">
+                            Пауэрбанки</a>
+                            -->
+                            <a class="list-group-item list-group-item-action" id="list-vape-list" data-toggle="list"
+                                href="#list-vape" role="tab" aria-controls="list-vape-list">
+                                Вейпы</a>
+                            <!--
+                        <a class="list-group-item list-group-item-action" id="list-tools-list" data-toggle="list"
+                            href="#list-tools" role="tab" aria-controls="list-tools-list">
+                            Электроинструмент</a>
+                        -->
+                            <a class="list-group-item list-group-item-action" id="list-ecu-list" data-toggle="list"
+                                href="#list-ecu" role="tab" aria-controls="list-ecu-list">
+                                ЭБУ</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section id="brands" class="bg-light container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-8 text-center">
-                    <h3></h3>
-                    <div class="brands-text">
-                        <p>iМастер ремонтирует навигаторы, радар-детекторы и прочие автомобильные устройства любых
-                            моделей,
-                            в том числе и следующих брендов:</p>
-                        <p><strong>Garmin, Navitel, Shturmann, Texet, xDevice, Lexand, Explay, CARMANi, ALTINA, Global
-                                Navigation,
-                                JJ-Connect, DiamondElectric, Mitac Mio, NaviSpace, Neoline, Nexx, Oysters Chrom,
-                                PRESTIGIO,
-                                Prology,
-                                Ritmix, Route, Starway, Tibo, TomTom, Treelogic, Digma, GlobalSat, iRiver.</strong></p>
+                <div class="col-md-8 col-lg-9 bg-dark tab-block">
+                    <div class="tab-content bg-light" id="nav-tabContent">
+                        <div class="tab-pane fade" id="list-navigator" role="tabpanel"
+                            aria-labelledby="list-navigator-list">
+                            <div class="description container-fluid">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10 col-lg-8 text-center">
+                                        <h3>Ремонт GPS навигаторов в Нижнем Новгороде</h3>
+                                        <img src="../img/devices/navigators/TN-522HDDVR_.png"
+                                        class="description-image" />
+                                        <p class="description-text text-left">
+                                            Если в дороге неожиданно сломался ваш верный друг и помощник - не стоит
+                                            переживать!<br>
+                                            Сервисный центр iМастер произведет ремонт в минимальные сроки за стоимость
+                                            значительно
+                                            дешевле
+                                            рыночной.
+                                            Засчёт сниженных расходов на рекламу, аренду и оплату текущих расходов, мы
+                                            прилично
+                                            сэкономим
+                                            ваш
+                                            бюджет.<br>
+                                            Часто в дороге у GPS навигаторов, радар-детекторов, зарядных устройств и
+                                            прочей
+                                            автомобильной
+                                            техники случаются типовые неисправности.
+                                            Я как частный мастер гарантирую вам скорейшее восстановление вашего
+                                            девайса.<br>
+                                            Вы можете обратиться ко мне <strong>круглосуточно</strong> в абсолютно любой
+                                            день.
+                                            Цены вас приятно удивят, а качественный ремонт продлит жизнь вашему
+                                            автомобильному
+                                            помощнику
+                                            на
+                                            ближайшие годы.
+                                        </p>
+                                        <button type="button" class="btn btn-custom my-3" onclick="jivo_api.open();">
+                                            Написать мастеру
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="brands container-fluid">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10 col-lg-8">
+                                        <h3></h3>
+                                        <div class="brands-text">
+                                            <p>iМастер ремонтирует навигаторы, радар-детекторы и прочие автомобильные
+                                                устройства
+                                                любых
+                                                моделей,
+                                                в том числе и следующих брендов:</p>
+                                            <p><strong>Garmin, Navitel, Shturmann, Texet, xDevice, Lexand, Explay,
+                                                    CARMANi,
+                                                    ALTINA,
+                                                    Global
+                                                    Navigation,
+                                                    JJ-Connect, DiamondElectric, Mitac Mio, NaviSpace, Neoline, Nexx,
+                                                    Oysters
+                                                    Chrom,
+                                                    PRESTIGIO,
+                                                    Prology,
+                                                    Ritmix, Route, Starway, Tibo, TomTom, Treelogic, Digma, GlobalSat,
+                                                    iRiver.</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cases container-fluid">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10 col-lg-8 text-center">
+                                        <h3>Виды ремонта</h3>
+                                        <div class="cases-text text-left">
+                                            <p>Наша фирма производит программный и аппаратный ремонт
+                                                навигаторов в Нижнем Новгороде::</p>
+                                            <ul>
+                                                <li>Замена тачскрина (сенсорного экрана)</li>
+                                                <li>Замена программного обеспечения (прошивка GPS
+                                                    навигатора)</li>
+                                                <li>Восстановление GPS после попадания жидкости</li>
+                                                <li>Ремонт после падения и других механических повреждений</li>
+                                                <li>Ремонт кнопок управления и многое
+                                                    другое</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="cases" class="bg-dark container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-8 text-center">
-                    <h3>Виды ремонта</h3>
-                    <div class="cases-text">
-                        <p>Наша фирма производит программный и аппаратный ремонт
-                            навигаторов в Нижнем Новгороде::</p>
-                        <ul>
-                            <li>Замена тачскрина (сенсорного экрана)</li>
-                            <li>Замена программного обеспечения (прошивка GPS
-                                навигатора)</li>
-                            <li>Восстановление GPS после попадания жидкости</li>
-                            <li>Ремонт после падения и других механических повреждений</li>
-                            <li>Ремонт кнопок управления и многое
-                                другое</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+        </div>
+    </section>
 
 
 

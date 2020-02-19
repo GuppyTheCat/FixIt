@@ -1,29 +1,24 @@
-#main{
-    background: url(../../img/devices/navigators/001-4.jpg.webp);
-}
-
-h3{
+h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-#description{
-    color:var(--light);
+.devices-block {
+    color: var(--dark);
 }
 
-#description h3{
-    color:var(--light);
+.description-image {
+    max-height: 300px;
+    max-width: 75%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.description-image{
-    max-height: 350px;
-    max-width: 90%;
+.tab-block {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-#brands{
-    color:var(--dark);
-}
-
-#cases h3{
-    color:var(--light);
+.tab-content {
+    border-radius: .25rem;
 }
