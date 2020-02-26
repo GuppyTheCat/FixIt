@@ -1,3 +1,12 @@
+.navbar-container{
+    height: 80px;
+}
+
+.simplebar-block{
+    padding-bottom: 30px;
+}
+
+
 h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -21,4 +30,8 @@ h3 {
 
 .tab-content {
     border-radius: .25rem;
+}
+
+.tabContent-section{
+    padding-bottom: 1rem;
 }
